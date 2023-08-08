@@ -31,6 +31,8 @@ public class AppConfig {
             "/v3/api-docs/**",
             "/swagger-ui/**",
             // other public endpoints of API may be appended to this array
+            "auth/signup",
+            "auth/login"
     };
 
     @Bean
